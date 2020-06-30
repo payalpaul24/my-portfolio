@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu_section {
+    background-color:goldenrod;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    
+ }
+ .main-menu{
+     display: flex;
+     
+ }
+ .menu-left{
+      font-weight: 700;
+      margin-left: 50px;
+      
+ }
+ .menu-left h2{
+     line-height: 50px;
+     font-size: 22px;
+ }
+ .menu-right{
+     height: 50px;;
+     margin-left: 600px;
+     line-height: 10px;
+ }
+ .menu-right ul{
+    display: flex;
+
+ }
+ .menu-right ul li{
+    list-style: none;
+    padding: 20px;
+    
+
+ }
+ .menu-right ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     
+ }
+
+ .top-section{
+     height: 500px;
+     margin-top: 0px;
+ }
+
+ h1{
+     font-size: 50px;
+ }
+ h2{
+    font-size: 40px;
+}
+ .color-highlight{
+     color: orange;
+ }
+ .section-width{
+     width: 40%;
+     float: left;
+     margin-left: 5%;
+     padding-left: 2%;
+ }
+ .section-width img{
+     width: 100%;
+ }
+ h3{
+     margin-top: 10px;
+ }
+ p{
+     margin-top: 5px;
+     color: slategrey;
+ }
+ .top-section{
+     width: 100%;
+     background-image: url("images/top-banner.png");
+     background-repeat: no-repeat;
+     overflow: hidden;
+ }
+ .link{
+     color: white;
+     font-weight: 700;
+     text-decoration: none;
+     padding: 8px 18px;
+     border-radius: 5px;
+     background-image: linear-gradient(45deg, #e66465, #9198e5);
+
+ }
+ .link:hover{
+     background-image: linear-gradient(45deg,#ec008c,#fc6767);
+ }
+ .dream-section{
+     height: 450px;
+     background-image: url("images/dream-bg.png");
+     background-repeat: no-repeat;
+     overflow: hidden;
+     background-position: right;
+ }
+ .experience-section{
+     height: 400px;
+     background-image: url("images/exp-bg.png");
+     background-repeat: no-repeat;
+     overflow: hidden;
+     background-position: left;
+ }
+ .single-experience{
+     margin-top: 20px;
+     height: 250px;
+     padding-right: 5px;
+     box-shadow: 10px 10px 30px gray;
+     border-radius: 10px;
+     background-color: white;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+ .single-experience:hover{
+    transform: scaleY(1.2);
+    
+ }
+ #full-experience{
+     border-left: 7px solid;
+     border-image: linear-gradient(180deg,lightsalmon,cyan);
+     border-image-slice: 1;
+ }
+ #full-experiences{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,darkblue,cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    font-size: 12px;
+}
